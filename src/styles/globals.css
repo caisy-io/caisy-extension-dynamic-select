@@ -1,0 +1,21 @@
+:root {
+  --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
+    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
+    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.body-wrapper{
+  width: 100%;
+  height: 100%;
+  padding: 12px;
+}
+.body-wrapper > select{
+  padding: 4px;
+}
+
